@@ -1,0 +1,4 @@
+cached_images/
+.vscode/
+node_modules/
+.DS_Store

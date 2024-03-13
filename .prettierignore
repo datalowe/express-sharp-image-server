@@ -1,0 +1,7 @@
+dist/
+.git/
+coverage/
+build/
+node_modules
+.vscode
+.husky/
