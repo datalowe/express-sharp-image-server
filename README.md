@@ -1,6 +1,6 @@
-# Simple image server using Express and Sharp
+# Simple image server using Express and sharp
 
-This is a project for running a very simple [express](https://expressjs.com/) image server, which enables resizing and compression of images with [sharp](https://sharp.pixelplumbing.com/). It only returns webp-formatted images, though modifying this would require small changes to the code.
+This is a project for running a very simple [Express](https://expressjs.com/) image server, which enables resizing and compression of images with [sharp](https://sharp.pixelplumbing.com/). It only returns webp-formatted images, though modifying this would require small changes to the code.
 
 ## Run
 
