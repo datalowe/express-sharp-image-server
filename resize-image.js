@@ -44,11 +44,11 @@ async function ensureImageExists(fBase, widthStr, heightStr, qualityStr) {
   if (!fBase) {
     throw new Error(`Empty filebase value: ${fBase}`);
   }
-  let width = Number.parseInt(widthStr);
-  let height = Number.parseInt(heightStr);
+  let width = Number.parseInt(widthStr) || null;
+  let height = Number.parseInt(heightStr) || null;
   let quality = Number.parseInt(qualityStr);
-  if ([width, height, quality].some((x) => isNaN(x))) {
-    throw new Error(`Non-numeric width (${widthStr}), height (${heightStr}) or quality (${qualityStr}).`);
+  if (isNaN(quality)) {
+    throw new Error(`Non-numeric quality (${qualityStr}).`);
   }
 
   ensureCacheDirExists();
@@ -71,4 +71,3 @@ async function ensureImageExists(fBase, widthStr, heightStr, qualityStr) {
 module.exports = {
   ensureImageExists,
 };
-//main();

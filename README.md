@@ -20,3 +20,9 @@ All images have Creative Commons or similar licenses. If you plan on using them 
   - Programmer by whiteboard: https://pixabay.com/de/photos/frau-arbeit-b%C3%BCro-whiteboard-4702060/
   - Programmer at computer: https://pixabay.com/de/photos/frau-computers-b%C3%BCro-arbeiten-5653501/
   - Code on screen: https://www.pexels.com/photo/html-270366/
+- Logos
+  - Docker: https://logos-world.net/wp-content/uploads/2021/02/Docker-Emblem.png
+  - Angular: https://freebiesupply.com/logos/angular-logo/
+  - WebAssembly: https://seeklogo.com/vector-logo/411853/webassembly
+  - Rust: https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg
+  - Django: https://creazilla.com/nodes/3253694-django-icon
