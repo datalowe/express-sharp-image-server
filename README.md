@@ -11,6 +11,15 @@ npm run start
 
 In e.g. a browser, visit `localhost:3000/image`, providing `filebase`, `width`, `height` and `quality` query parameters, say `http://localhost:3000/image?filebase=programmer_with_screens&width=1200&height=700&quality=60`.
 
+## Docker run
+
+```sh
+docker compose up -d
+# docker compose down
+```
+
+Visit `http://localhost:7006/image?filebase=programmer_with_screens&width=1200&height=700&quality=60`.
+
 ## Preexisting images
 
 All images have Creative Commons or similar licenses. If you plan on using them yourselves, please check the individual images' licenses and attribute the original sources if possible.

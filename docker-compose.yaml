@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - '7006:3000'
+    container_name: image_server
+    volumes:
+      - './original_images/:/app/original_images/'
+      - './cached_images/:/app/cached_images/'
+    restart: always
